@@ -1,0 +1,69 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+
+# Browser profiles
+browser_profiles/
+profiles/
+
+# Data and temp files
+data/
+*.log
+*.tmp
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+docker-volumes/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Vector database files
+vector_db_data/
+chromadb/
+pinecone/
+weaviate/
+
+# Generated files
+generated/
+screenshots/
+*.screenshot.png
+metrics/
